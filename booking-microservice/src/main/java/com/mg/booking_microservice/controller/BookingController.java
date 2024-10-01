@@ -27,7 +27,7 @@ public class BookingController {
         order.setOrderItems(orderDTO.getOrderItems());
 
         orderRepository.save(order);
-        
+
         return "Order Saved";
     }
 }
